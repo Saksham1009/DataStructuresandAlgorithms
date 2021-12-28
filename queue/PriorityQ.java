@@ -16,8 +16,10 @@ public class PriorityQ {
 		System.out.println(pq.remove());
 		System.out.println(pq.remove());
 		System.out.println(pq.remove());
-		
-
+		//gets out on the basis of the priority, run the command and see
+		//the queue(line 14) might not show the sorted queue, the elements are not put in a sorted order in the queue
+		//but when you remove the elements or peek they come out in sorted order
+		// for example smaller to bigger number or alphabetical order!
 	}
 
 }
